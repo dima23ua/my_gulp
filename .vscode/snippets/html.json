@@ -1,0 +1,215 @@
+   {
+      "svguse": {
+         "scope": "html",
+         "prefix": "d-use",
+         "body": [
+            "<svg class=\"\" fill=\"currentColor\">",
+            "  <use xlink:href=\"img/sprite.svg#$1\"></use>",
+            "</svg>"
+         ],
+         "description": "Snippet for use svg sprites"
+      },
+      "burger": {
+         "scope": "html",
+         "prefix": "d-burger",
+         "body": [
+            "<!-- burger menu -->",
+            "<div class=\"burger\">",
+            "   <div class=\"burger__menu\">",
+            "      <span></span>",
+            "   </div>",
+            "</div>"
+         ],
+         "description": "Snippet for burger btn"
+      },
+      "checkbox": {
+         "scope": "html",
+         "prefix": "d-checkbox",
+         "body": [
+            "<!-- checkbox -->",
+            "<div class=\"checkbox\">",
+            "  <input type=\"checkbox\" class=\"checkbox__input\">",
+            "  <label class=\"checkbox__label\">$1</label>",
+            "</div>"
+         ],
+         "description": "Snippet for custom checkbox"
+      },
+      "navigation": {
+         "scope": "html",
+         "prefix": "d-nav",
+         "body": [
+            "<!-- navigation menu -->",
+            "<div class=\"navigation\">",
+            "   <nav class=\"nav\">",
+            "      <ul class=\"nav__list\">",
+            "         <li class=\"nav__item\">",
+            "            <a href=\"#\" class=\"nav__link\"></a>",
+            "         </li>",
+            "         <li class=\"nav__item\">",
+            "            <a href=\"#\" class=\"nav__link\"></a>",
+            "         </li>",
+            "         <li class=\"nav__item\">",
+            "            <a href=\"#\" class=\"nav__link\"></a>",
+            "         </li>",
+            "         <li class=\"nav__item\">",
+            "            <a href=\"#\" class=\"nav__link\"></a>",
+            "         </li>",
+            "         <li class=\"nav__item\">",
+            "            <a href=\"#\" class=\"nav__link\"></a>",
+            "         </li>",
+            "      </ul>",
+            "   </nav>",
+            "</div>"
+         ],
+         "description": "Snippet for navigation"
+      },
+      "social": {
+         "scope": "html",
+         "prefix": "d-social",
+         "body": [
+            "<ul class=\"social\" title=\"$1\">",
+            "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--fb\" aria-label=\"Наша страничка в Фейсбуке\"></a></li>",
+            "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--vk\" aria-label=\"Наша страничка во Вконтакте\"></a></li>",
+            "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--tw\" aria-label=\"Наша страничка в Твиттере\"></a></li>",
+            "</ul>"
+         ],
+         "description": "Snippet for social links"
+      },
+      "form": {
+         "prefix": "d-form",
+         "body": [
+            "<!-- Form -->",
+            "<form action=\"#\" method=\"post\" class=\"form\" id=\"form\">",
+            "    ",
+            "   <!-- form input --> ",
+            "   <div class=\"form__label-block\">",
+            "      <label for=\"#formName\" class=\"form__label\"></label>",
+            "      <input id=\"formName\" type=\"text\" name=\"name\" class=\"form__input\" placeholder=\"Имя\">",
+            "   </div>",
+            "    ",
+            "    <!-- button -->",
+            "      <div class=\"button\">",
+            "         <button aria-label=\"\" type=\"\" class=\"button__link\">Кнопка</button>",
+            "      </div>",
+            "    <!-- button - end -->",
+            "</form>",
+            "<!-- Form - end -->"
+         ],
+         "description": "Snippet for basic form"
+      },
+      "swiper": {
+         "prefix": "d-swiper",
+         "body": [
+            "<!-- slider swiper -->",
+            "<div class=\"slider swiper-content\">",
+            "   <div class=\"slider__wrapper swiper-wrapper\">",
+            "      <!-- slide-1-->",
+            "      <div class=\"slider__slide swiper-slide\">",
+            "                         ",
+            "      </div>",
+            "      <!--slide-2-->",
+            "      <div class=\"slider__slide swiper-slide\">",
+            "                         ",
+            "      </div>",
+            "      <!--slide-3-->",
+            "      <div class=\"slider__slide swiper-slide\">",
+            "                         ",
+            "      </div>",
+            "   </div>",
+            "   <!-- navigation -->",
+            "   <div class=\"swiper-button-prev\"></div>",
+            "   <div class=\"swiper-button-next\"></div>",
+            "   <!-- pagination -->",
+            "   <div class=\"swiper-pagination\"></div>",
+            "</div>",
+            "<!-- slider - end -->"
+         ],
+         "description": "Snippet for basic swiper structure"
+      },
+      "picture": {
+         "prefix": "d-picture",
+         "body": [
+            "<!-- picture -->",
+            "  <img src=\"@img\" alt=\"$3\">"
+         ],
+         "description": "Snippet for basic logo structure"
+      },
+      "svgimg": {
+         "scope": "html",
+         "prefix": "g-svgimg",
+         "body": [
+            "<img loading=\"lazy\" src=\"$1.$2\" class=\"image\" width=\"$4\" height=\"$5\" alt=\"$3\">"
+         ],
+         "description": "Snippet for simple html svg images"
+      },
+      "tooltip": {
+         "prefix": "d-tooltip",
+         "body": [
+            "<span class=\"tooltip\">",
+            "  <button class=\"tooltip__btn\" aria-describedby=\"$1\">$2</button>",
+            "  <span class=\"tooltip__txt\" role=\"tooltip\" id=\"$1\">",
+            "    <span class=\"visually-hidden\">Тултип: </span>",
+            "    $3",
+            "  </span>",
+            "</span>"
+         ],
+         "description": "Snippet for tooltip"
+      },
+      "tabs": {
+         "prefix": "d-tabs",
+         "body": [
+            "<div class=\"tabs\" data-tabs=\"$1\">",
+            "  <ul class=\"tabs__nav\">",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$2</button></li>",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$3</button></li>",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$4</button></li>",
+            "  </ul>",
+            "  <div class=\"tabs__content\">",
+            "    <div class=\"tabs__panel\">$5</div>",
+            "    <div class=\"tabs__panel\">$6</div>",
+            "    <div class=\"tabs__panel\">$7</div>",
+            "  </div>",
+            "</div>"
+         ],
+         "description": "Snippet for basic tabs structure"
+      },
+      "button": {
+         "prefix": "d-button",
+         "body": [
+            "<!-- Button -->",
+            "<div class=\"button\">",
+            "  <button aria-label=\"\" type=\"\" class=\"button__link\">Кнопка</button>",
+            "</div>",
+            "<!-- Button - end -->"
+         ],
+         "description": "Snippet for basic button structure"
+      },
+      "popup": {
+         "prefix": "d-popup",
+         "body": [
+            "<!-- popup -->",
+            "<div class=\"popup-wrapper\" id=\"...\">",
+            "   <div class=\"popup-wrapper__container\">",
+            "                        ",
+            "     <div class=\"popup popup-container\">",
+            "        <div class=\"popup__body\">",
+            "           <div class=\"popup__content\">",
+            "                       ",
+            "              <!-- close popup -->         ",
+            "              <div class=\"popup__close\">",
+            "                 <a href=\"#header\" class=\"popup__close-link close-popup\"></a>",
+            "              </div>",
+            "                       ",
+            "              <!-- popup content -->         ",
+            "                       ",
+            "                       ",
+            "            </div>",
+            "         </div>",
+            "      </div>",
+            "                       ",
+            "   </div>",
+            "</div>"
+         ],
+         "description": "Snippet for basic popup structure"
+      }
+   }
